@@ -1,0 +1,34 @@
+#text-input {
+  margin-left: 25%;
+  margin-top: 5%;
+  font-size: 2rem;
+  width: 30rem;
+  border: none;
+}
+
+#hot-dog-container {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+#bun-bottom {
+  height: 150px;
+  width: auto;
+}
+
+#bun-top {
+  height: 150px;
+  width: auto;
+  position: relative;
+  left: -10rem;
+  z-index: 2;
+}
+
+#sausage {
+  height: 60px;
+  width: auto;
+  position: relative;
+  top: -8rem;
+  z-index: 1;
+  transform: rotate(333deg);
+}

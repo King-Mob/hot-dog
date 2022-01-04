@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>YOUR HOT, DOG</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+      <script>function changeText(text) {
+            console.log(text);
+            offset = 20 * text.length;
+            console.log(offset)
+      }</script>
+    <input 
+        type="text" 
+        id="text-input" 
+        onkeypress="changeText(this.value)"
+        placeholder="type here to change hot dog"
+    ></input >
+    <div id="hot-dog-container">
+        <div id="bun">
+            <img id="bun-bottom" src="bun-bottom.png" />
+            <img id="bun-top" src="bun-top.png" />
+        </div>
+      <img id="sausage" src="sausage.png" />
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
